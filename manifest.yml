@@ -1,0 +1,9 @@
+---
+applications:
+- name: cloud-foundry-mongo-express
+  memory: 256M
+  instances: 1
+  command: node ./node_modules/mongo-express/app.js
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+  services:
+    - mongoinstance

@@ -1,0 +1,14 @@
+{
+  "name": "cloudfoundry-mongo-express",
+  "version": "1.0.0",
+  "description": "Mongo express wrapper for cloud foundry",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./node_modules/mongo-express/app.js"
+  },
+  "author": "Kavitha Madhavaraj",
+  "license": "ISC",
+  "dependencies": {
+	"mongo-express": "0.44.0"
+  }
+}
