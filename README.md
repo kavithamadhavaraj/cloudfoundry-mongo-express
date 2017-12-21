@@ -6,3 +6,7 @@ A MongoDB wrapper for CloudFoundry Environment
 3) 'cf push' to upload the package to Cloud Foundry Environment. 
 
 * Uses mongo-express version 0.44.0 
+
+Visit the configured host eg. localhost:8081/
+Username : admin
+Password : pass
